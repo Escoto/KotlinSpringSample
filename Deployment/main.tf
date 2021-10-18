@@ -48,7 +48,7 @@ provider "kubernetes" {
 }
 
 resource "google_compute_address" "public_lb_ip" {
-  name   = "ghost-lb-ip"
+  name   = "example-lb-ip"
   region = local.region
 }
 
